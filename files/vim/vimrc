@@ -1,0 +1,14 @@
+set nocompatible
+syntax on
+filetype off
+
+set background=dark
+set number
+set backspace=indent,eol,start
+set expandtab ts=4 sw=4 ai
+set foldmethod=indent
+set foldlevel=99
+set hlsearch
+
+colorscheme monokai
+filetype plugin indent on

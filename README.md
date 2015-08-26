@@ -16,3 +16,15 @@ In `/etc/salt/minion` set:
 ### Provision
 
     salt-call --local state.highstate
+
+### PuTTY configuration
+
+- 256 color mode
+
+     - In Window > Colours, check "Allow terminal to use xterm 256-colour mode"
+     - In Connection > Data, change your "Terminal-type string" to "putty-256color"
+
+- Locale
+
+     - In Window > Translation set Remote character set to "UTF-8"
+     - Check "Use Unicode line drawing code points"

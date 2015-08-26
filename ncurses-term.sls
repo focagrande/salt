@@ -1,0 +1,3 @@
+ncurses-term:
+    pkg:
+        - installed
